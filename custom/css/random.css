@@ -1,0 +1,14 @@
+#animate_sideways_div {
+	background:#98bf21;
+	height:100px;
+	width:100px;position:absolute;
+	color:black;
+}
+
+#animate_sideways_div p {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}

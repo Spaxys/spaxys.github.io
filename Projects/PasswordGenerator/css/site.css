@@ -1,0 +1,140 @@
+﻿body {
+    background-color: rgb(4, 46, 77);
+    /*color: rgb(225, 230, 204);*/
+    color: #9AB700;
+    font-family:'Open Sans', sans-serif;
+}
+
+body.electroSite > section {
+
+    margin-left:50px;
+    margin-right:50px;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+
+body.webdevSite > section {
+
+    /*margin-left:50px;*/
+    /*margin-right:50px;*/
+    margin-top:50px;
+    margin-bottom:50px;
+}
+
+body > section.data-first-section {
+    margin-top:100px;
+}
+
+body > section > article  img {
+    max-width: 100%;
+    align-content:center;
+    margin-top:50px;
+}
+
+/*#dweb-subpage-webdev-sidemenu {
+    position:fixed;
+    width:20%;
+}*/
+@media (min-width: 992px) {
+    .sidebar-nav-fixed {
+        /*width:20%;*/
+        position: fixed;
+        left: 10px;
+        padding-top: 10px;
+        /*margin-right:20px;*/
+    }
+
+}
+
+.data-padder {
+    padding-top:50px;
+}
+
+#top-link-block {
+    position: fixed; /* keeps it on the bottom once in view */
+    bottom: 18px; /* height of link element */
+    left: 10px; /* padding from the left side of the window */
+}
+
+.dweb-bodystyle {
+    background-color: rgb(4, 46, 77);
+    /*color: rgb(225, 230, 204);*/
+    color: #9AB700;
+    font-family:'Open Sans', sans-serif;
+}
+
+.panel-default {
+     background-color: rgb(4, 46, 77);
+    /*color: rgb(225, 230, 204);*/
+    color: #9AB700;
+    font-family:'Open Sans', sans-serif;
+}
+
+#weatherMonitorCarousel
+{
+	//max-height:50%;
+	max-height: 500px;
+}
+.carousel > .carousel-inner
+{
+//	max-height: 400px;
+	max-width: 100%;
+}
+
+.carousel > .carousel-inner > .item
+{
+	//max-height: 100%;
+	//max-width: 100%;
+	max-height: 400px !important;
+	max-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.carousel > .carousel-inner > .item > img
+{
+	//max-height: 100%;
+}
+
+#dweb-accordion.container > panel-group,
+#dweb-accordion.container > panel-group > panel,
+#dweb-accordion.container > panel-group > panel > panel-heading,
+#dweb-accordion.container > panel-group > panel > panel-body
+ {
+    background-color: rgb(4, 46, 77);
+    /*color: rgb(225, 230, 204);*/
+    color: #9AB700;
+    font-family:'Open Sans', sans-serif;
+    border:none;
+    max-width:70%
+}
+
+#dweb-accordion img {
+    max-width: 100%;
+    align-content:center;
+}
+
+/*dweb-webdev-accordion*/
+
+body.container {
+    /*margin-left: 10px*/
+}
+
+
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
+
+
+
+
+
+
+.blink_me {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {  
+  50% { opacity: 0; }
+}

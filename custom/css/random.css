@@ -12,3 +12,21 @@
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
+
+.ukraine {
+  --blue: #0057b7;
+  --yellow: #ffd700;
+  background: linear-gradient(
+  var(--blue) 0%,
+  var(--blue) 50%,
+  var(--yellow) 50%,
+  var(--yellow) 100%);
+}
+
+.nopad_fill {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  padding:0;
+  margin:0;
+}

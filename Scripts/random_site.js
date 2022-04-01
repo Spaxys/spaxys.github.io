@@ -35,5 +35,5 @@ $(document).ready(function(){
 	$(".april-fools *").on('mouseup', function (e) {
 		e.preventDefault();
 		$(this).hide();
-	}
+	});
 });

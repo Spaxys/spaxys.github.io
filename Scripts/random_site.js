@@ -31,4 +31,9 @@ $(document).ready(function(){
 	    // Pass control back to default handler.
 	    return true;
 	});
+	
+	$(".april-fools *").on('mouseup', function (e) {
+		e.preventDefault();
+		$(this).hide();
+	}
 });
